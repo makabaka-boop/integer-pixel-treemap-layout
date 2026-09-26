@@ -1,0 +1,25 @@
+{
+  "name": "treemap-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "离线权重树图编辑器（Lit + TypeScript），整数像素 squarify 布局，由 Compose 页面承载显示",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "sync:compose": "bash scripts/sync-web-assets.sh"
+  },
+  "dependencies": {
+    "lit": "^3.3.3"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^4.1.11"
+  }
+}

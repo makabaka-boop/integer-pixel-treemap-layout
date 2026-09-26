@@ -1,0 +1,8 @@
+node_modules/
+dist/
+compose/.gradle/
+compose/build/
+compose/app/build/
+compose/local.properties
+compose/app/src/main/assets/treemap/*
+!compose/app/src/main/assets/treemap/.gitkeep
